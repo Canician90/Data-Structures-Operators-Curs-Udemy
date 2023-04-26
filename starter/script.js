@@ -91,7 +91,7 @@ const guestCorrect = restaurant.numGuests ?? 10;
 console.log(guestCorrect);
 
 /* 
-We're building a football betting app (soccer for my American friends 😅)!
+We're building a football betting app (soccer for my American friends )!
 
 Suppose we get data from a web service about a certain game (below). In this challenge we're gonna work with the data. So here are your tasks:
 
@@ -105,7 +105,7 @@ Suppose we get data from a web service about a certain game (below). In this cha
 
 TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Then, call the function again with players from game.scored
 
-GOOD LUCK 😀
+
 
 const game = {
   team1: 'Bayern Munich',
@@ -408,7 +408,7 @@ BONUS: Create an object called 'scorers' which contains the names of the players
         Lewandowski: 2
       }
 
-GOOD LUCK 😀
+
 
 
 const game = {
@@ -483,7 +483,7 @@ for (const player of game.scored) {
 */
 
 
-
+/*
 // Sets
 const ordersSet = new Set([
   'Pasta',
@@ -522,7 +522,7 @@ console.log(new Set('jonasschmedtmann').size);
 
 
 
-
+/* 
 // Maps: Fundamentals
 const rest = new Map();
 rest.set('name', 'Classico Italiano');
@@ -555,13 +555,13 @@ console.log(rest.size);
 
 console.log(rest.get(arr));
 
+*/
 
 
 
 
 
-
-
+/*
 
 // Maps: Iteration
 const question = new Map([
@@ -570,7 +570,7 @@ const question = new Map([
   [2, 'Java'],
   [3, 'JavaScript'],
   ['correct', 3],
-  [true, 'Correct 🎉'],
+  [true, 'Correct '],
   [false, 'Try again!'],
 ]);
 console.log(question);
@@ -599,13 +599,13 @@ console.log([...question.values()]);
 
 
 
+*/
 
-
-
+/*
 
 // Coding Challenge #3
 
-/* 
+
 Let's continue with our football betting app! This time, we have a map with a log of the events that happened during the game. The values are the events themselves, and the keys are the minutes in which each event happened (a football game has 90 minutes plus some extra time).
 
 1. Create an array 'events' of the different game events that happened (no duplicates)
@@ -614,8 +614,7 @@ Let's continue with our football betting app! This time, we have a map with a lo
 4. Loop over the events and log them to the console, marking whether it's in the first half or second half (after 45 min) of the game, like this:
       [FIRST HALF] 17: ⚽️ GOAL
 
-GOOD LUCK 😀
-*/
+
 
 const gameEvents = new Map([
   [17, '⚽️ GOAL'],
